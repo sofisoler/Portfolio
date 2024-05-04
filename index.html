@@ -1,232 +1,337 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio y CV personal de Sofía Soler, full stack developer.">
-    <meta name="keywords" content="Sofía Soler, full stack, developer, frontend, backend, web, html, css, sass, js, react, python, django">
-    <link rel="shortcut icon" href="./images/icons/Foto-ICONO-Sofia-Ines-Soler.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <title>Sofía Soler | Portfolio</title>
-</head>
-<body>
-    <div class="container">
-        <header class="header">
-            <nav class="nav">
-                <div class="nav__container">
-                    <a href="#" class="nav__name">Sofía Soler</a>
-                    <div class="nav__menu">
-                        <ul class="nav__list">
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">Inicio</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#about" class="nav__link">Sobre mí</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#skills" class="nav__link">Skills</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#projects" class="nav__link">Proyectos</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#contact" class="nav__link">Contacto</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <nav class="modal-nav">
-                <img src="./images/icons/menu.png" alt="modal-nav-menu" class="modal-nav__open">
-                <div class="modal-nav__container">
-                    <div class="modal-nav__menu">
-                        <img src="./images/icons/close.png" alt="modal-nav-menu" class="modal-nav__close">
-                        <ul class="modal-nav__list">
-                            <li class="modal-nav__item">
-                                <a href="#home" class="modal-nav__link">Inicio</a>
-                            </li>
-                            <li class="modal-nav__item">
-                                <a href="#about" class="modal-nav__link">Sobre mí</a>
-                            </li>
-                            <li class="modal-nav__item">
-                                <a href="#skills" class="modal-nav__link">Skills</a>
-                            </li>
-                            <li class="modal-nav__item">
-                                <a href="#projects" class="modal-nav__link">Proyectos</a>
-                            </li>
-                            <li class="modal-nav__item">
-                                <a href="#contact" class="modal-nav__link">Contacto</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <main class="main">
-            <section class="home" id="home">
-                <div class="home__container">
-                    <div class="home__img">
-                        <img src="./images/profile/Foto-PORTFOLIO-Sofia-Ines-Soler.PNG" alt="presentación">
-                    </div>
-                    <div class="home__data">
-                        <h1 class="home__title animate__animated animate__fadeInRight">¡Hola! Soy Sofía</h1>
-                        <h2 class="home__subtitle">Full Stack Developer</h2>
-                        <p class="home__description">
-                            Soy Sofía Soler, desarrolladora full stack. Vivo en Buenos Aires, Argentina. Actualmente, estoy cursando la Licenciatura en Análisis de Sistemas en la Universidad de Buenos Aires y, además, me enfoco en mantenerme al día y expandir mis conocimientos y habilidades en el campo del desarrollo.
-                        </p>
-                        <button class="button">
-                            <a href="#contact">Contactame</a>
-                        </button>
-                    </div>
-                </div>
-            </section>
-            <section class="about" id="about">
-                <div class="about__container">
-                    <div class="about__img">
-                        <img src="./images/svgs/about.svg" alt="sobre-mi">
-                    </div>
-                    <div class="about__data">
-                        <h2 class="about__title animate__animated animate__fadeInLeft">Sobre mí</h2>
-                        <span class="about__subtitle">Presentación</span>
-                        <p class="about__description">
-                            Completé la carrera de Desarrollo Full Stack en Coderhouse, donde adquirí conocimientos en ambos aspectos de las aplicaciones web: tanto el frontend como el backend. Mi formación formal y mi impulso autodidacta me permitieron desarrollar habilidades en una variedad de tecnologías y lenguajes.
-                        </p>
-                        <button class="button">
-                            <a download="" href="./pdf/Sofia-Ines-Soler-CV.pdf">Descargar CV</a>
-                        </button>
-                    </div>
-                </div>
-            </section>
-            <section class="skills" id="skills">
-                <div class="skills__container">
-                    <h2 class="skills__title animate__animated animate__fadeIn">Habilidades</h2>
-                    <span class="skills__subtitle">Mis conocimientos</span>
-                    <div class="accordion">
-                        <details class="accordion__item">
-                            <summary class="accordion__header">Desarrollo Frontend</summary>
-                            <div class="accordion__content">
-                                <div class="skills__img">
-                                    <img src="./images/skills/html-5.png" alt="HTML">
-                                    <img src="./images/skills/css-3.png" alt="CSS">
-                                    <img src="./images/skills/sass.png" alt="Sass">
-                                    <img src="./images/skills/bootstrap.png" alt="Bootstrap">
-                                    <img src="./images/skills/js.png" alt="JavaScript">
-                                    <img src="./images/skills/react.png" alt="ReactJs">
-                                    <img src="./images/skills/material-ui.png" alt="Material-UI">
-                                </div>
-                            </div>
-                        </details>
-                        <details class="accordion__item">
-                            <summary class="accordion__header">Desarrollo Backend</summary>
-                            <div class="accordion__content">
-                                <div class="skills__img">
-                                    <img src="./images/skills/nodejs.png" alt="NodeJs">
-                                    <img src="./images/skills/python.png" alt="Python">
-                                    <img src="./images/skills/django.png" alt="Django">
-                                </div>
-                            </div>
-                        </details>
-                        <details class="accordion__item">
-                            <summary class="accordion__header">Base de Datos</summary>
-                            <div class="accordion__content">
-                                <div class="skills__img">
-                                    <img src="./images/skills/mongodb.png" alt="MongoDB">
-                                    <img src="./images/skills/firebase.png" alt="Firebase">
-                                </div>
-                            </div>
-                        </details>
-                        <details class="accordion__item">
-                            <summary class="accordion__header">Control de Versiones</summary>
-                            <div class="accordion__content">
-                                <div class="skills__img">
-                                    <img src="./images/skills/git.png" alt="Git">
-                                </div>
-                            </div>
-                        </details>
-                        <details class="accordion__item">
-                            <summary class="accordion__header">Diseño Gráfico</summary>
-                            <div class="accordion__content">
-                                <div class="skills__img">
-                                    <img src="./images/skills/figma.png" alt="Figma">
-                                    <img src="./images/skills/canva.png" alt="Canva">
-                                </div>
-                            </div>
-                        </details>
-                    </div>
-                </div>
-            </section>
-            <section class="projects" id="projects">
-                <div class="projects__container">
-                    <h2 class="projects__title animate__animated animate__fadeIn">Proyectos</h2>
-                    <span class="projects__subtitle">Mis proyectos destacados</span>
-                    <div class="projects__list">
-                        <div class="project">
-                                <h4><small>NODE.JS</small><a href="https://proyecto-backend-68h5-dev.fl0.io/" target="_blank"><img src="./images/icons/link.png" alt="proyecto-link"></a></h4>
-                                <img src="./images/projects/project-node.png" alt="proyecto-imagen">
-                        </div>
-                        <div class="project">
-                            <h4><small>REACT.JS</small><a href="https://sofisoler.github.io/Proyecto-ReactJs/" target="_blank"><img src="./images/icons/link.png" alt="proyecto-link"></a></h4>
-                            <img src="./images/projects/project-react.png" alt="proyecto-imagen">
-                        </div>
-                        <div class="project">
-                            <h4><small>DESARROLLO WEB</small><a href="https://sofisoler.github.io/Proyecto-DesarrolloWeb/" target="_blank"><img src="./images/icons/link.png" alt="proyecto-link"></a></h4>
-                            <img src="./images/projects/project-dw.png" alt="proyecto-imagen">
-                        </div>
-                        <div class="project">
-                            <h4><small>DJANGO</small><a href="https://github.com/sofisoler/Proyecto-Python.git" target="_blank"><img src="./images/icons/link.png" alt="proyecto-link"></a></h4>
-                            <img src="./images/projects/project-python.png" alt="proyecto-imagen">
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="contact" id="contact">
-                <h2 class="contact__title animate__animated animate__fadeIn">Contactame</h2>
-                <span class="contact__subtitle">¡Escribime!</span>
-                <div class="contact__container">
-                    <div class="contact__phone">
-                        <img class="contact__img" src="./images/contact/call.png" alt="teléfono">
-                        <h3 class="contact__title">Teléfono</h3>
-                        <span class="contact__subtitle">+54 1133933543</span>
-                    </div>
-                    <div class="contact__email">
-                        <div>
-                            <img class="contact__img" src="./images/contact/email.png" alt="email">
-                            <h3 class="contact__title">Email</h3>
-                            <a href="mailto:sofisoler_@hotmail.com" class="contact__subtitle">sofisoler_@hotmail.com</a>
-                        </div>
-                    </div>                    
-                    <div class="contact__location">
-                        <div>
-                            <img class="contact__img" src="./images/contact/location.png" alt="ubicación">
-                            <h3 class="contact__title">Ubicación</h3>
-                            <span class="contact__subtitle">Buenos Aires, Argentina</span>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer class="footer">
-            <div class="footer__container">
-                <div class="footer__data">
-                    <h3 class="footer__title">Sofía Soler</h3>
-                    <span class="footer__subtitle">Full Stack Developer</span>
-                </div>
-                <div class="footer__socials">
-                    <a href="https://github.com/sofisoler" target="_blank" title="GitHub">
-                        <img src="./images/socials/github.png" alt="github">
-                    </a>
-                    <a href="https://www.linkedin.com/in/sofisoler/" target="_blank" title="LinkedIn">
-                        <img src="./images/socials/linkedin.png" alt="linkedin">
-                    </a>
-                    <a href="https://www.instagram.com/sofisoler_/" target="_blank" title="Instagram">
-                        <img src="./images/socials/instagram.png" alt="instagram">
-                    </a>
-                </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio y CV personal de Sofía Soler, full stack developer & community manager"
+    />
+    <meta
+      name="keywords"
+      content="Sofía Soler, full stack, developer, frontend, backend, web, html, css, sass, js, react, python, django, community manager"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/profile/Sofia-Ines-Soler-Portfolio.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Sofía Inés Soler | Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-lg-center justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#about">About me</a>
+              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </div>
-        </footer>
-    </div>
-    <script src="./src/js/modal.js"></script>
-</body>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="brand-container">
+        <div class="brand-name">
+          <h1 class="wow animate__animated animate__fadeIn">
+            Sofía Inés Soler
+          </h1>
+        </div>
+        <div class="brand-description">
+          <p>Portfolio</p>
+        </div>
+      </section>
+      <section class="home-container" id="home">
+        <div class="home-img">
+          <img
+            class="wow animate__animated animate__fadeIn"
+            src="./images/profile/Sofia-Ines-Soler-Portfolio.png"
+            alt="Presentación"
+          />
+        </div>
+        <div class="home-data">
+          <h1 class="home-title wow animate__animated animate__fadeInRight">
+            ¡Hola! Soy Sofía
+          </h1>
+          <h2 class="home-subtitle">
+            Full Stack Developer & Community Manager
+          </h2>
+          <p class="home-description">
+            Vivo en San Isidro, Buenos Aires. Actualmente, me encuentro cursando
+            la Licenciatura en Análisis de Sistemas. Me dedico al campo de la
+            tecnología, por ende, estoy constantemente aprendiendo y
+            actualizándome, enfocándome tanto en el desarrollo como en las redes
+            sociales.
+          </p>
+          <button class="button">
+            <a href="#contact">Contact me</a>
+          </button>
+        </div>
+      </section>
+      <section class="about-container" id="about">
+        <div class="about-img">
+          <img
+            class="wow animate__animated animate__fadeIn"
+            src="./images/svgs/undraw_proud_coder_re_exuy.svg"
+            alt="Sobre mi"
+          />
+        </div>
+        <div class="about-data">
+          <h2 class="about-title wow animate__animated animate__fadeInLeft">
+            About me
+          </h2>
+          <p class="about-description">
+            Estudié Desarrollo Full Stack donde adquirí conocimientos tanto en
+            el frontend como en el backend. Mi formación formal y mi impulso
+            autodidacta me permitieron desarrollar habilidades en una variedad
+            de tecnologías y lenguajes. Además, estudié Community Manager con la
+            idea de crear una marca personal dedicada a la fotografía, una
+            pasión que siempre esta presente en mi vida.
+          </p>
+          <button class="button">
+            <a download="" href="./pdf/Sofia-Ines-Soler-CV-Portfolio.pdf"
+              >Download CV</a
+            >
+          </button>
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <div class="skills-container">
+          <h2 class="skills-title wow animate__animated animate__fadeIn">
+            Skills
+          </h2>
+          <div class="accordion">
+            <details class="accordion-item">
+              <summary class="accordion-header">Desarrollo Frontend</summary>
+              <div class="accordion-content">
+                <div class="skills-img">
+                  <img src="./images/skills/html-5.png" alt="HTML" />
+                  <img src="./images/skills/css-3.png" alt="CSS" />
+                  <img src="./images/skills/sass.png" alt="Sass" />
+                  <img src="./images/skills/bootstrap.png" alt="Bootstrap" />
+                  <img src="./images/skills/js.png" alt="JavaScript" />
+                  <img src="./images/skills/react.png" alt="ReactJs" />
+                  <img src="./images/skills/figma.png" alt="Figma" />
+                  <img
+                    src="./images/skills/material-ui.png"
+                    alt="Material UI"
+                  />
+                </div>
+              </div>
+            </details>
+            <details class="accordion-item">
+              <summary class="accordion-header">Desarrollo Backend</summary>
+              <div class="accordion-content">
+                <div class="skills-img">
+                  <img src="./images/skills/nodejs.png" alt="NodeJs" />
+                  <img src="./images/skills/python.png" alt="Python" />
+                  <img src="./images/skills/django.png" alt="Django" />
+                </div>
+              </div>
+            </details>
+            <details class="accordion-item">
+              <summary class="accordion-header">Base de Datos</summary>
+              <div class="accordion-content">
+                <div class="skills-img">
+                  <img src="./images/skills/mongodb.png" alt="MongoDB" />
+                  <img src="./images/skills/firebase.png" alt="Firebase" />
+                </div>
+              </div>
+            </details>
+            <details class="accordion-item">
+              <summary class="accordion-header">Control de Versiones</summary>
+              <div class="accordion-content">
+                <div class="skills-img">
+                  <img src="./images/skills/git.png" alt="Git" />
+                </div>
+              </div>
+            </details>
+            <details class="accordion-item">
+              <summary class="accordion-header">
+                Producción de Contenido Multimedia
+              </summary>
+              <div class="accordion-content">
+                <div class="skills-img">
+                  <img src="./images/skills/canva.png" alt="Canva" />
+                  <img src="./images/skills/capcut.png" alt="CapCut" />
+                </div>
+              </div>
+            </details>
+            <details class="accordion-item">
+              <summary class="accordion-header">Marketing Digital</summary>
+              <div class="accordion-content">
+                <div class="skills-img">
+                  <img src="./images/skills/google-ads.png" alt="Google Ads" />
+                  <img
+                    src="./images/skills/google-analytics.png"
+                    alt="Google Analytics"
+                  />
+                </div>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+      <section class="projects-container" id="projects">
+        <h2 class="projects-title wow animate__animated animate__fadeIn">
+          Projects
+        </h2>
+        <div class="projects-list development-projects">
+          <div class="project">
+            <h4>
+              <small>Node.Js</small
+              ><a
+                href="https://github.com/sofisoler/Proyecto-Backend.git"
+                target="_blank"
+                ><img src="./images/icons/link.png" alt="Enlace"
+              /></a>
+            </h4>
+            <img src="./images/projects/project-node.png" alt="Proyecto" />
+          </div>
+          <div class="project">
+            <h4>
+              <small>React.Js</small
+              ><a
+                href="https://sofisoler.github.io/Proyecto-ReactJs/"
+                target="_blank"
+                ><img src="./images/icons/link.png" alt="Enlace"
+              /></a>
+            </h4>
+            <img src="./images/projects/project-react.png" alt="Proyecto" />
+          </div>
+          <div class="project">
+            <h4>
+              <small>Desarrollo Web</small
+              ><a
+                href="https://sofisoler.github.io/Proyecto-DesarrolloWeb/"
+                target="_blank"
+                ><img src="./images/icons/link.png" alt="Enlace"
+              /></a>
+            </h4>
+            <img src="./images/projects/project-dw.png" alt="Proyecto" />
+          </div>
+          <div class="project">
+            <h4>
+              <small>Django</small
+              ><a
+                href="https://github.com/sofisoler/Proyecto-Python.git"
+                target="_blank"
+                ><img src="./images/icons/link.png" alt="Enlace"
+              /></a>
+            </h4>
+            <img src="./images/projects/project-python.png" alt="Proyecto" />
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="contact-background">
+          <h2 class="contact-title wow animate__animated animate__fadeIn">
+            Contact
+          </h2>
+          <div class="contact-container">
+            <div class="contact-phone">
+              <img
+                class="contact-img"
+                src="./images/contact/call.png"
+                alt="Teléfono"
+              />
+              <h3 class="contact-title">Teléfono</h3>
+              <span class="contact-subtitle">+54 1133933543</span>
+            </div>
+            <div class="contact-email">
+              <div>
+                <img
+                  class="contact-img"
+                  src="./images/contact/email.png"
+                  alt="Email"
+                />
+                <h3 class="contact-title">Email</h3>
+                <a href="mailto:sofisoler_@hotmail.com" class="contact-subtitle"
+                  >sofisoler_@hotmail.com</a
+                >
+              </div>
+            </div>
+            <div class="contact-location">
+              <div>
+                <img
+                  class="contact-img"
+                  src="./images/contact/location.png"
+                  alt="Ubicación"
+                />
+                <h3 class="contact-title">Ubicación</h3>
+                <span class="contact-subtitle">Buenos Aires, Argentina</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-container">
+      <div class="footer-data">
+        <h3 class="footer-title">Sofía Inés Soler</h3>
+        <span class="footer-subtitle"
+          >Full Stack Developer & Community Manager</span
+        >
+      </div>
+      <div class="footer-socials">
+        <a
+          href="https://www.linkedin.com/in/sofisoler/"
+          target="_blank"
+          title="LinkedIn"
+        >
+          <img src="./images/socials/linkedin.png" alt="LinkedIn" />
+        </a>
+        <a href="https://github.com/sofisoler" target="_blank" title="GitHub">
+          <img src="./images/socials/github.png" alt="GitHub" />
+        </a>
+        <a
+          href="https://www.instagram.com/sofisoler_/"
+          target="_blank"
+          title="Instagram"
+        >
+          <img src="./images/socials/instagram.png" alt="Instagram" />
+        </a>
+      </div>
+    </footer>
+    <script src="./src/js/main.js"></script>
+    <script src="./src/js/wow.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
